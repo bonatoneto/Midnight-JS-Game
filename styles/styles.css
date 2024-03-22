@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Racing+Sans+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-image: url(../public/img/midnight-club-wallpaper-i-made-v0-boituc00imdb1.webp);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 24px 48px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: 'Good Times';
+  font-size: 48px;
+  color: #ff0000;
+  text-shadow: -5px 5px 5px rgba(0, 0, 0, 0.575);
+}
+
+label {
+  font-family: 'Good Times';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+select {
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  font-family: 'Good Times';
+  font-size: 14px;
+  outline: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+option {
+  font-family: 'Good Times';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Good Times';
+  font-size: 14px;
+}
+
+span { 
+  height: 53px;
+  font-family: 'Good Times';
+  padding: 16px 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 8px 32px;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  background-color: #5c5c5c;
+  border: 2px solid yellow;
+  outline: none;
+  font-family: 'Good Times';
+  font-size: 20px;
+  font-weight: 600;
+  color: yellow;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+
+  &:hover {
+    background-color: #050505;
+  }
+}

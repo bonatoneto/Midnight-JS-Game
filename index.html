@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/containers.css">
+  <link rel="stylesheet" href="styles/cars.css">
+  <link rel="shortcut icon" href="./public/favicon/favicon.png" type="image/x-icon">
+  <style>
+    @font-face {
+      font-family: 'Good Times';
+      src: url(public/fonts/good-times-rg.otf);
+    }
+  </style>
+  <title>Mid Night Club JS Game</title>
+</head>
+<body>
+  <main class="main-container">
+    <div class="container-game">
+      <h1>Mid Night Club JS Game</h1>
+      <div class="fields-container">
+        <div class="field-content">
+          <label for="cars-list">Escolha o seu carro</label>
+          <select name="cars-list" id="cars">
+            <option value="Ferrari">Ferrari 360 Challenge Stradale</option>
+            <option value="Skyline">Nissan Skyline GT-R</option>
+            <option value="Porsche" >Porsche 911 Carrera Turbo S</option>
+            <option value="Lamborghini">Lamborghini Gallardo</option>
+            <option value="Civic">Honda Civic Type-R</option>
+          </select>
+        </div>
+        <div class="field-content">
+          <label for="item-list">Escolha um item</label>
+          <select name="item-list" id="item-list">
+            <option id="item-1" value="">Vazio</option>
+            <option id="item-2" value="5">$5,00 - Jogar oléo na pista</option>
+            <option id="item-3" value="7">$7,00 - Nitro</option>
+            <option 
+              id="item-4" 
+              value="10"
+            >
+              $10,00 - Boost Pressão de turbo
+            </option>
+            <option 
+              id="item-5" 
+              value="10"
+            >
+              $10,00 - Hackear E.C.U de algum oponente
+            </option>
+          </select>
+        </div>
+        <div class="field-content">
+          <label for="bet-list">Faça a sua aposta</label>
+          <select  name="bet-list" id="bet-list">
+            <option value="1">$1,00</option>
+            <option value="2">$2,00</option>
+            <option value="3">$3,00</option>
+            <option value="4">$4,00</option>
+            <option value="5">$5,00</option>
+            <option value="6">$6,00</option>
+            <option value="7">$7,00</option>
+            <option value="8">$8,00</option>
+            <option value="9">$9,00</option>
+            <option value="10">$10,00</option>
+            <option value="15">$15,00</option>
+            <option value="20">$20,00</option>
+            <option value="25">$25,00</option>
+            <option value="30">$30,00</option>
+            <option value="35">$35,00</option>
+            <option value="40">$40,00</option>
+            <option value="45">$45,00</option>
+            <option value="50">$50,00</option>
+            <option value="60">$60,00</option>
+            <option value="70">$70,00</option>
+            <option value="80">$80,00</option>
+            <option value="90">$90,00</option>
+            <option value="100">$100,00</option>
+          </select>
+        </div>
+        <div class="field-content">
+          <label for="cash">Sua grana:</label>
+          <span id="cash">$100,00</span>
+        </div>
+      </div>
+      <div class="button">
+        <button id="btn-start" onclick="betTime()">Dar a largada!</button>
+      </div>
+      <div id="track" class="track">
+        <div class="cars">
+            <img 
+              class="car" 
+              id="Ferrari" 
+              src="public/img/red-sport-car.png" 
+              alt="car-1"
+            >
+            <img 
+              class="car" 
+              id="Skyline" 
+              src="public/img/sport-car.png"
+              alt="car-2"
+            >
+            <img 
+              class="car" 
+              id="Porsche" 
+              src="public/img/blue-car.png" 
+              alt="car-3"
+            >
+            <img 
+              class="car" 
+              id="Lamborghini" 
+              src="public/img/yellow-car.svg" 
+              alt="car-4"
+            >
+            <img 
+              class="car" 
+              id="Civic" 
+              src="public/img/white-car.png" 
+              alt="car-5"
+            >
+        </div>
+        <img class="track" src="public/img/image (2).png" alt="track">
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

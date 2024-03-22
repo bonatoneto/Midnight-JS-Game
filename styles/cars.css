@@ -1,0 +1,36 @@
+.cars {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  top: 24px;
+  z-index: 2;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  width: 124px;
+  height: 66px;
+}
+
+#car-1 {
+  width: 124px;
+}
+
+#car-2 {
+  width: 124px;
+}
+
+#car-3 {
+  width: 124px;
+}
+
+#car-4 {
+  width: 124px;
+}
+
+#car-5 {
+  width: 124px;
+}
